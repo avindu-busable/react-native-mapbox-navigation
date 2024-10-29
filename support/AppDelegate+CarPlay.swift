@@ -28,7 +28,7 @@ extension AppDelegate: CarPlayManagerDelegate {
        let navigationViewportDataSource = navigationMapView.navigationCamera.viewportDataSource as? NavigationViewportDataSource {
       navigationViewportDataSource.options.followingCameraOptions.zoomUpdatesAllowed = false
       // Map Zoom Level for Navigating
-      navigationViewportDataSource.followingCarPlayCamera.zoom = 15.0
+      navigationViewportDataSource.followingCarPlayCamera.zoom = 18.0
       let puck = UserPuckCourseView(frame: CGRect(origin: .zero, size: 40.0))
       navigationMapView.userLocationStyle = .courseView(puck)
     }

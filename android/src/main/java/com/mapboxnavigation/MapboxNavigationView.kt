@@ -497,7 +497,7 @@ class MapboxNavigationView(private val context: ThemedReactContext): FrameLayout
 
     // Recenter Camera
     val initialCameraOptions = CameraOptions.Builder()
-      .zoom(14.0)
+      .zoom(18.0)
       .center(origin)
       .build()
     binding.mapView.mapboxMap.setCamera(initialCameraOptions)
